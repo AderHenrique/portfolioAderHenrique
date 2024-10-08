@@ -20,13 +20,13 @@
 /* Font and typography */
 /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Bai Jamjuree", sans-serif;
-  --biggest-font-size: 2.5rem;
-  --h1-font-size: 1.75rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1.125rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+  --biggest-font-size: 30px;
+  --h1-font-size: 30px;
+  --h2-font-size: 20px;
+  --h3-font-size: 15px;
+  --normal-font-size: 15px;
+  --small-font-size: 12px;
+  --smaller-font-size: 10px;
 
 /* Font weight */
   --font-regular: 400;
@@ -42,13 +42,13 @@
 /* Responsive typography */
 @media screen and (min-width: 1150px) {
   :root {
-    --biggest-font-size: 4.5rem;
-    --h1-font-size: 3rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
+    --biggest-font-size: 50px;
+    --h1-font-size: 30px;
+    --h2-font-size: 20px;
+    --h3-font-size: 15px;
+    --normal-font-size: 20px;
+    --small-font-size: 15px;
+    --smaller-font-size: 12px;
   }
 }
 
@@ -449,7 +449,7 @@ body.dark-theme{
 }
 
 .home__social{
-  height: max-content;
+  height: 50px;
   position: absolute;
   left: -3rem;
   top: 0;
@@ -1334,15 +1334,14 @@ body.dark-theme{
   }
 
   .home__arrow {
-    top: 4.5rem;
+    top: 50px;
     left: -8rem;
     rotate: 80deg;
     width: 80px;
   }
 
   .home__line{
-    left: -15rem;
-    bottom: 4rem;
+    left: -150px;
     width: 80px;
     rotate: 30deg;
   }
@@ -1522,7 +1521,7 @@ body.dark-theme{
 
   .contact__data{
     width: 392px;
-    height: 375px;
+    height: 400px;
     padding: 4.5rem 3.5rem 3.5rem;
     margin: 7.5rem 0 0 8rem;
     border-bottom: 6px solid var(--first-color);
